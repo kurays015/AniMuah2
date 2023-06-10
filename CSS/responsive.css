@@ -91,6 +91,9 @@
   .card img {
     width: 200px;
   }
+  .card:hover {
+    transform: scale(1.1);
+    }
   .logo {
     font-size: 1.5rem;
   }
@@ -169,7 +172,11 @@
   .card {
     width: 280px;
   }
-  .card img {
+  .card:hover {
+  transform: scale(1.1);
+  }
+  .card img 
+  {
     width: 200px;
   }
   .title {
@@ -257,6 +264,9 @@
     justify-content: center;
     place-items: center;
   }
+  .card:hover {
+    transform: scale(1.1);
+    }
   .logo {
     font-size: 1rem;
   }
