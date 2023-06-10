@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;500;600;700&family=Patua+One&display=swap');
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+  
+}
+body {
+  background-color: #202125;
+  
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+main {
+  margin: 20px;
+}
+footer {
+  padding: 20px;
+  background-color: #38373E;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px;
+}
+.socials img {
+    width: 30px;
+    color: red;
+}
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+
+}
+.logo:hover {
+  color: #e98989;
+}
+.anime-trend {
+  color: #f59393;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.search-icon {
+  width: 25px;
+  color: #fff;
+  margin-right: 5px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+nav ul li a:hover {
+  color: #f66f6f;
+
+}
+.form-and-title {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.form-and-title > h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+form {
+  display: flex;
+  align-items: center;
+
+}
+form input {
+  outline: none;
+  border: none;
+  height: 30px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 16px;
+}
+
+/* next and prev button */
+.next-prev-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.prev,
+.next {
+  width: 100px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  background-color: #9e4343;
+  border-radius: 30px;
+  height: 50px;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+  
+}
+.prev:hover,
+.next:hover {
+  background-color: #f66f6f;
+}
+.prev:active,
+.next:active {
+  background-color: #e98989;
+}
+.page-count {
+  color: #fff;
+  margin-left: 14.5%;
+  font-size: 1rem;
+}
+

@@ -1,0 +1,303 @@
+/* mobile first - smaller screen */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  nav ul li a {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  main {
+    margin: 10px;
+  }
+  header {
+    padding: 0;
+  }
+  footer {
+    padding: 15px;
+    width: 100%;
+  }
+  form input {
+    width: 150px;
+    margin-left: 10px;
+  }
+  
+ 
+  .container {
+    grid-template-columns: repeat(2, 280px);
+    justify-content: center;
+
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .page-count {
+    margin: 15px 0 0 0;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .anime-trend {
+    margin: 15px;
+  }
+  .form-and-title {
+    gap: 20px;
+  }
+  .socials {
+    margin-top: 10px;
+  }
+
+  /* modal */
+  .trailer-video {
+   width: 300px;
+   height: 300px;
+  }
+  .anime-info{
+    font-size: 0.8rem;
+  }
+  .anime-info > h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .modal-image {
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 575px) {
+
+  nav ul li a {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  main {
+    margin: 10px;
+    
+  }
+  header {
+    padding: 0;
+  }
+  footer {
+    padding: 15px;
+    width: 100%;
+  }
+  form input {
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    place-items: center;
+  }
+  .card img {
+    width: 200px;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .page-count {
+    margin: 15px 0 0 0;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .anime-trend {
+    margin: 15px;
+  }
+  .form-and-title {
+    gap: 20px;
+  }
+  .socials {
+    margin-top: 10px;
+  }
+  /* modal */
+  .anime-info,
+  .image-and-details-container {
+    padding: 0;
+  }
+  .img-info {
+    flex-direction: column;
+  }
+  .trailer {
+    width: 100%;
+  }
+  .trailer-video {
+   width: 400px;
+   flex: 1;
+  } 
+  .anime-info {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .anime-info > h3 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .modal-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav ul li a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  main {
+    margin: 10px;
+    
+  }
+  header {
+    padding: 0;
+    flex-direction: column;
+  }
+  footer {
+    padding: 15px;
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  form input {
+   width: 100%;
+   text-align: center;
+
+  }
+  
+  .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    place-items: center;
+  }
+  .card {
+    width: 280px;
+  }
+  .card img {
+    width: 200px;
+  }
+  .title {
+    margin-top: 10px;
+
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  .page-count {
+    margin: 15px 0 0 0;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .anime-trend {
+    margin: 15px;
+  }
+  .form-and-title {
+    gap: 5px;
+    flex-direction: column;
+  }
+  .search-icon {
+    display: none;
+  }
+  .socials {
+    margin-top: 10px;
+  }
+
+
+
+  /* modal */
+  .trailer-video {
+   width: 250px;
+   height: 300px;
+  } 
+  .anime-info {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .anime-info,
+  .image-and-details-container {
+    padding: 0;
+  }
+  .img-info {
+    flex-direction: column;
+  }
+  
+  .anime-info > h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 5px;
+
+  }
+  .modal-image {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  nav ul li a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  main {
+    margin: 10px;
+    
+  }
+  header {
+    padding: 0;
+    flex-direction: column;
+  }
+  footer {
+    padding: 15px;
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  form input {
+    width: 100%;
+    text-align: center;
+     
+   }
+  .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    place-items: center;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  .form-and-title {
+    gap: 5px;
+    flex-direction: column;
+  }
+
+   /* modal */
+   .modal {
+    padding: 10px;
+   }
+  
+  .img-info {
+    flex-direction: column;
+  }
+  .image-and-details-container {
+    padding: 0;
+  }
+
+   .trailer-video {
+    width: 250px;
+    height: 200px;
+   } 
+   .anime-info {
+     font-size: 0.8rem;
+     text-align: center;
+     padding: 0;
+   }
+   .anime-info p {
+    font-size: 0.7rem;
+   }
+   .anime-info > h3 {
+     font-size: 1rem;
+     font-weight: 400;
+     margin-bottom: 5px;
+   }
+
+   .modal-image {
+     display: none;
+   }
+
+
+}

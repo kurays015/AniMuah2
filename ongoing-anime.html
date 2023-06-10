@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ongoing Anime</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/anime-card.css">
+    <link rel="stylesheet" href="CSS/anime-modal.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+  </head>
+
+  <body>
+    <main> 
+      <header>
+        <div class="form-and-title">
+          <a class="logo" href="index.html"> <h1>AniMuah</h1> </a> 
+          <form>
+            <label for="anime"> <img class="search-icon" src="https://cdn-icons-png.flaticon.com/512/8915/8915520.png"> </label>
+            <input type="search" name="anime" placeholder="Search anime">
+          </form>
+        </div>
+        <nav>
+          <ul>
+            <li> <a href="upcoming-anime.html">Upcoming Anime</a> </li>
+            <li> <a href="ongoing-anime.html">Ongoing Anime</a> </li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section>
+        <p class="page-count">Page <span class="page">1</span> of 298</p>
+        <h1 class="anime-trend">ONGOING ANIME</h1>
+        <div class="container"></div>
+        <button class="prev">Previous</button>
+        <button class="next">Next</button>
+        <p class="page-count">Page <span class="page">1</span> of 298</p>
+      </section>
+
+      <dialog class="modal">
+        <div class="img-info">
+          <div class="trailer"></div>  
+          <div class="image-and-details-container">
+            <img class="modal-image">
+            <div class="anime-info">
+              <h3 class="modal-title"></h3>
+              <p class="rank"></p>  
+              <p class="episodes"></p>        
+              <p class="studio"></p>        
+              <p class="rating"></p>        
+              <p class="score"></p>                 
+              <p class="season"></p>    
+              <p class="year"></p>    
+              <p class="genre"></p>        
+            </div>
+          </div>
+        </div>
+        <h3 class="hover-synopsis">Hover below to see the synopsis</h3>
+        <div class="synopsis">   
+          <div class="text"></div>
+        </div>        
+        <div class="modal-exit-container">
+          <button class="close">Close</button>
+        </div>
+      </dialog>
+
+    </main>
+      <footer>
+        <div>
+          <p>&copy; 2023 All rights reserved.</p>
+          <p>This anime website is made for fun by Christ Narvarte using MAL API</p>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/kurays015" target="_blank"> <img title="Github" src="icons/github.svg"> </a>
+          <a href="https://www.twitter.com/ChristNarvarte" target="_blank"> <img title="Twitter" src="icons/twitter.svg">  </a>
+          <a href="https://www.facebook.com/illidanstormrageee" target="_blank"> <img title="Facebook" src="icons/facebook.svg"> </a>   
+        </div>
+      </footer>
+    
+
+    <script src="javascript/ongoing-anime.js"></script>
+  </body>
+</html>
