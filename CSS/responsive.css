@@ -209,6 +209,9 @@
 
 
   /* modal */
+  .modal {
+      margin: 20px auto;
+    }
   .trailer-video {
    width: 250px;
    height: 300px;
@@ -278,7 +281,8 @@
    /* modal */
    .modal {
     padding: 10px;
-    margin: 30px auto;
+    margin: 20px auto;
+
    }
   
   .img-info {
